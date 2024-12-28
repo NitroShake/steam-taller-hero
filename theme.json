@@ -1,0 +1,124 @@
+{
+    "name": "Taller Hero",
+    "author": "NitroShake",
+    "version": "v1.0",
+    "description": "Increases the hero height on any game's page.",
+    "target": "Steam Big Picture",
+    "manifest_version": 8,
+    "inject": {
+      "shared.css": ["SP"]
+    },
+    "patches": {
+        "Play Bar Style": {
+            "type": "dropdown",
+            "default": "Transparent (No blur cutoff)",
+            "values": {
+                "Opaque": {
+                    "playbar/opaque.css": [
+                        "SP"
+                    ]
+                },
+                "Transparent": {
+                    "playbar/transparent.css": [
+                        "SP"
+                    ]
+                },
+                "Transparent (No blur cutoff)": {
+                    "playbar/transparent-no-cutoff.css": [
+                        "SP"
+                    ]
+                }
+            }
+        },
+        "Play Bar Transparency Blur": {
+            "default": "16px",
+            "type": "slider",
+            "values": {
+                "0px": {
+                    "--play-bar-blur": [
+                        "0px",
+                        "SP"
+                    ]
+                },
+                "2px": {
+                    "--play-bar-blur": [
+                        "2px",
+                        "SP"
+                    ]
+                },
+                "4px": {
+                    "--play-bar-blur": [
+                        "4px",
+                        "SP"
+                    ]
+                },
+                "8px": {
+                    "--play-bar-blur": [
+                        "8px",
+                        "SP"
+                    ]
+                },
+                "16px": {
+                    "--play-bar-blur": [
+                        "16px",
+                        "SP"
+                    ]
+                },
+                "32px": {
+                    "--play-bar-blur": [
+                        "32px",
+                        "SP"
+                    ]
+                },
+                "64px": {
+                    "--play-bar-blur": [
+                        "64px",
+                        "SP"
+                    ]
+                }
+            }
+        },
+        "Logo Size Limit": {
+            "default": "200px",
+            "type": "slider",
+            "values": {
+                "100px": {
+                    "--logo-max-limit": [
+                        "100px",
+                        "SP"
+                    ]
+                },
+                "150px": {
+                    "--logo-max-limit": [
+                        "150px",
+                        "SP"
+                    ]
+                },
+                "200px": {
+                    "--logo-max-limit": [
+                        "200px",
+                        "SP"
+                    ]
+                },
+                "250px": {
+                    "--logo-max-limit": [
+                        "250px",
+                        "SP"
+                    ]
+                },
+                "300px": {
+                    "--logo-max-limit": [
+                        "300px",
+                        "SP"
+                    ]
+                },
+                "None": {
+                    "--logo-max-limit": [
+                        "9999px",
+                        "SP"
+                    ]
+                }
+            }
+        }
+    }
+}
