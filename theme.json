@@ -3,8 +3,8 @@
     "author": "NitroShake",
     "version": "v1.0",
     "description": "Increases the hero height on any game's page.",
-    "target": "Steam Big Picture",
-    "manifest_version": 8,
+    "target": "Desktop-Library",
+    "manifest_version": 9,
     "inject": {
       "shared.css": ["SP"]
     },
@@ -35,43 +35,43 @@
             "type": "slider",
             "values": {
                 "0px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "0px",
                         "SP"
                     ]
                 },
                 "2px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "2px",
                         "SP"
                     ]
                 },
                 "4px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "4px",
                         "SP"
                     ]
                 },
                 "8px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "8px",
                         "SP"
                     ]
                 },
                 "16px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "16px",
                         "SP"
                     ]
                 },
                 "32px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "32px",
                         "SP"
                     ]
                 },
                 "64px": {
-                    "--play-bar-blur": [
+                    "--nitroshake-gv-play-bar-blur": [
                         "64px",
                         "SP"
                     ]
@@ -83,37 +83,37 @@
             "type": "slider",
             "values": {
                 "100px": {
-                    "--logo-max-limit": [
+                    "--nitroshake-gv-logo-max-limit": [
                         "100px",
                         "SP"
                     ]
                 },
                 "150px": {
-                    "--logo-max-limit": [
+                    "--nitroshake-gv-logo-max-limit": [
                         "150px",
                         "SP"
                     ]
                 },
                 "200px": {
-                    "--logo-max-limit": [
+                    "--nitroshake-gv-logo-max-limit": [
                         "200px",
                         "SP"
                     ]
                 },
                 "250px": {
-                    "--logo-max-limit": [
+                    "--nitroshake-gv-logo-max-limit": [
                         "250px",
                         "SP"
                     ]
                 },
                 "300px": {
-                    "--logo-max-limit": [
+                    "--nitroshake-gv-logo-max-limit": [
                         "300px",
                         "SP"
                     ]
                 },
                 "None": {
-                    "--logo-max-limit": [
+                    "--nitroshake-gv-logo-max-limit": [
                         "9999px",
                         "SP"
                     ]
