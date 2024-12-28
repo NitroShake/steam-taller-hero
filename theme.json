@@ -3,7 +3,7 @@
     "author": "NitroShake",
     "version": "v1.0",
     "description": "Increases the hero height on any game's page.",
-    "target": "Desktop-Library",
+    "target": "Library",
     "manifest_version": 9,
     "inject": {
       "shared.css": ["SP"]
