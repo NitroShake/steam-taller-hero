@@ -7,6 +7,7 @@
 /* Change where menu begins */
 .NZMJ6g2iVnFsOOp-lDmIP {
     height: calc(100vh - var(--nitroshake-gv-full-bar-height));
+    max-height: unset;
 }
 
 /* Resize logo */
