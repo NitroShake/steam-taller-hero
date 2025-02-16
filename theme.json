@@ -75,6 +75,12 @@
                         "bigpicture"
                     ]
                 },
+                "48px": {
+                    "--nitroshake-gv-play-bar-blur": [
+                        "48px",
+                        "bigpicture"
+                    ]
+                },
                 "64px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "64px",
