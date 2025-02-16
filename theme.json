@@ -27,6 +27,11 @@
                     "playbar/transparent-no-cutoff.css": [
                         "bigpicture"
                     ]
+                },
+                "Half-transparent (High transparency blur recommended)": {
+                    "playbar/half-transparent.css": [
+                        "bigpicture"
+                    ]
                 }
             }
         },
