@@ -5,7 +5,9 @@
 }
 
 /* Change where menu begins */
-.NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP {
+.NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP.NZMJ6g2iVnFsOOp-lDmIP,
+.NZMJ6g2iVnFsOOp-lDmIP._1amMH3zqcKV3WYkLKNId8R,
+.NZMJ6g2iVnFsOOp-lDmIP._1ZNHIcPSbQl11wXtomcqgH {
     height: calc(100vh - var(--nitroshake-gv-full-bar-height));
     max-height: unset;
 }
