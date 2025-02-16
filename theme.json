@@ -6,7 +6,7 @@
     "target": "Library",
     "manifest_version": 9,
     "inject": {
-      "shared.css": ["SP"]
+      "shared.css": ["bigpicture"]
     },
     "patches": {
         "Play Bar Style": {
@@ -15,17 +15,17 @@
             "values": {
                 "Opaque": {
                     "playbar/opaque.css": [
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "Transparent": {
                     "playbar/transparent.css": [
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "Transparent (No blur cutoff)": {
                     "playbar/transparent-no-cutoff.css": [
-                        "SP"
+                        "bigpicture"
                     ]
                 }
             }
@@ -37,43 +37,43 @@
                 "0px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "0px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "2px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "2px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "4px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "4px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "8px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "8px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "16px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "16px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "32px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "32px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "64px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "64px",
-                        "SP"
+                        "bigpicture"
                     ]
                 }
             }
@@ -85,37 +85,37 @@
                 "100px": {
                     "--nitroshake-gv-logo-max-limit": [
                         "100px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "150px": {
                     "--nitroshake-gv-logo-max-limit": [
                         "150px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "200px": {
                     "--nitroshake-gv-logo-max-limit": [
                         "200px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "250px": {
                     "--nitroshake-gv-logo-max-limit": [
                         "250px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "300px": {
                     "--nitroshake-gv-logo-max-limit": [
                         "300px",
-                        "SP"
+                        "bigpicture"
                     ]
                 },
                 "None": {
                     "--nitroshake-gv-logo-max-limit": [
                         "9999px",
-                        "SP"
+                        "bigpicture"
                     ]
                 }
             }
