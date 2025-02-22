@@ -27,6 +27,11 @@
                     "playbar/transparent-no-cutoff.css": [
                         "bigpicture"
                     ]
+                },
+                "Top half transparent (High blur recommended)": {
+                    "playbar/half-transparent.css": [
+                        "bigpicture"
+                    ]
                 }
             }
         },
@@ -67,6 +72,12 @@
                 "32px": {
                     "--nitroshake-gv-play-bar-blur": [
                         "32px",
+                        "bigpicture"
+                    ]
+                },
+                "48px": {
+                    "--nitroshake-gv-play-bar-blur": [
+                        "48px",
                         "bigpicture"
                     ]
                 },
