@@ -1,7 +1,7 @@
 {
     "name": "Taller Gameview Hero",
     "author": "NitroShake",
-    "version": "v1.0.1",
+    "version": "v1.1.0",
     "description": "Increases the hero height on any game's page + some extra styling options.",
     "target": "Library",
     "manifest_version": 9,
