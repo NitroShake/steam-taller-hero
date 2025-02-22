@@ -1,6 +1,6 @@
 /* change image height to intersect with playbar */
 ._1IX7FPSY9Jb82KhBVBSkZa, .HNbe3eZf6H7dtJ042x1vM {
-    min-height: calc(100vh - var(--nitroshake-gv-info-bar-height)) !important;
+    min-height: calc(100vh - var(--nitroshake-gv-info-bar-height) - calc(var(--nitroshake-gv-play-bar-height) / 2)) !important;
 }
 
 /* Apply dim + blur on menu */
